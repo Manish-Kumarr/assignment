@@ -15,7 +15,7 @@ app.use('/api', authRoute);
 
 app.get('/', (req, res) => {
   res.send(
-    'For checking endpoints use postman. Endpoints are: 1.http://localhost:3000/api/home  2.http://localhost:3000/api/signup  3.http://localhost:3000/api/login'
+    'For checking endpoints use postman. Endpoints are: 1.https://restapiii.herokuapp.com/api/home  2.https://restapiii.herokuapp.com/api/signup  3.https://restapiii.herokuapp.com/api/login'
   );
 });
 
